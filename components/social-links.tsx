@@ -1,4 +1,4 @@
-import { FileText, Github, Linkedin, Mail, Phone } from 'lucide-react'
+import { FileText, Github, Linkedin, Mail } from 'lucide-react'
 import Link from 'next/link'
 
 export function SocialLinks() {
