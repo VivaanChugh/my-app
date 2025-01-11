@@ -22,13 +22,13 @@ export default function Home() {
               <TypingAnimation key="typing-animation" text="Hey, I am Vivaan Chugh! 👋" delay={80} />
               <div className="space-y-4 text-foreground">
                 <p>
-                  I'm a passionate Computer Engineering student at the University of Waterloo, 
+                  I am a passionate Computer Engineering student at the University of Waterloo, 
                   with a keen interest in software development, robotics, and machine learning. 
                   My diverse experience ranges from leading hackathons to teaching Python, 
                   showcasing my ability to both create and share knowledge in the tech world.
                 </p>
                 <p>
-                  When I'm not coding or working on projects, you can find me exploring new 
+                  When I am not coding or working on projects, you can find me exploring new 
                   technologies, participating in robotics competitions, or collaborating with 
                   peers on innovative solutions to real-world problems.
                 </p>
@@ -49,7 +49,7 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground">Sep. 2024 – April 2029</p>
                 <p> Cumulative Average: 82%</p>
                 <ul className="list-disc list-inside mt-2 text-sm">
-                  <li>University of Waterloo President's Scholarship of Distinction</li>
+                  <li>University of Waterloo President Scholarship of Distinction</li>
                   <li>Nortel Networks Undergraduate Scholarship</li>
                 </ul>
               </CardContent>
