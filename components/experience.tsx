@@ -4,47 +4,33 @@ import { FadeInSection } from "./fade-in-section"
 export function Experience() {
   const experiences = [
     {
-      title: "Hackathon Event: Hack The Ridge - President",
-      company: "Iroquois Ridge High School",
-      location: "Oakville, ON",
-      period: "September 2021 – June 2024",
+      title: "Software Developer",
+      company: "UW Orbital",
+      location: "Waterloo, ON",
+      period: "January 2025 - Present",
       description: [
-        "Led and managed a team of 10 executives, fostering collaboration and driving strategic initiatives",
-        "Secured sponsorships to support team activities, ensuring financial sustainability and expanding opportunities",
-        "Coordinated and facilitated the setup of a hackathon event, overseeing logistics, team operations, and more"
+        "Developed efficient software in C for satellite systems, optimizing performance and resource utilization on the RM46 microcontroller while ensuring robust operation in space-critical environments through error handling.",
+        "Implemented and debugged robust communication protocols for satellite systems, resulting in a 28% improvement in data transmission reliability in simulated space environments."
       ]
     },
     {
-      title: "Python Lead Teacher",
-      company: "Coding is Fun",
-      location: "Oakville, ON",
-      period: "September 2022 – June 2024",
-      description: [
-        "Delivered engaging Python lessons to students, ensuring comprehensive understanding of key programming concepts",
-        "Regularly evaluated and provided feedback on weekly homework assignments to track student progress",
-        "Managed classroom activities, including answering student queries to maintain a smooth learning environment"
-      ]
-    },
-    {
-      title: "Assistant Teacher",
-      company: "Halton STEM Robotics",
-      location: "Oakville, ON",
-      period: "July 2023 - August 2023",
-      description: [
-        "Assisted in planning lessons on Microbits and Tinkercad design, making a dynamic learning environment",
-        "Provided mentorship and technical support to students, helping them understand and apply concepts in Microbits, coding, and 3D modeling using Tinkercad",
-        "Supervised students during activities, ensuring their safety while fostering a collaborative learning atmosphere where they could confidently explore technology and problem-solving"
-      ]
-    },
-    {
-      title: "Programming and Design Team Member",
-      company: "First Robotics Competition - 1360",
+      title: "Software Programmer",
+      company: "Orbital Robotics",
       location: "Oakville, ON",
       period: "September 2020 – June 2023",
       description: [
-        "Utilized SolidWorks for 3D modeling and design, contributing to the creation and refinement of the robot in collaboration with the team",
-        "Programmed key functionalities using Java, implementing software solutions to optimize performance",
-        "Participated in various competitions throughout the season, applying technical knowledge to achieve goals"
+        "Developed advanced automation algorithms in Java to optimize robotic movement patterns, reducing execution time by 40% while enhancing path efficiency and increasing operational precision by 25%.",
+        "Utilized SolidWorks to design, refine, and simulate 3D models of critical robot components, collaborating closely with a 50-person team to enhance functionality and secure a top 10 ranking in provincial robotics competitions."
+      ]
+    },
+    {
+      title: "President, Hackathon",
+      company: "Hack The Ridge",
+      location: "Oakville, ON",
+      period: "September 2023 – June 2024",
+      description: [
+        "Led strategic planning with a team of 10 student executives, resulting in a 75% increase in participant registration and expanding the event to include 200+ students from across the region.",
+        "Secured over $10,000 in sponsorships by developing compelling partnership packages, enabling the purchase of new equipment and doubling the prize pool for competitors."
       ]
     }
   ]
@@ -77,4 +63,3 @@ export function Experience() {
     </div>
   )
 }
-

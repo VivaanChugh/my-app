@@ -7,31 +7,24 @@ import { FadeInSection } from "./fade-in-section"
 export function Projects() {
   const projects = [
     {
-      title: "OBC-Firmware-Onboarding Project",
-      description: "Developed a peripheral driver for a temperature sensor and implemented a thermal management task as part of a design team onboarding challenge",
-      tags: ["C", "STM32 HAL", "Peripheral Drivers"],
-      github: "https://github.com/vivaanc/obc-firmware-onboarding",
+      title: "Findr: AI-Powered Hackathon Matchmaking",
+      description: "Developed a full-stack matchmaking platform to connect hackathon participants based on skills and interests.",
+      tags: ["FastAPI", "React", "Python", "MongoDB", "Gemini AI"],
+      github: "https://github.com/VivaanChugh/Findr",
       demo: "#"
     },
     {
-      title: "STM32 Nucleo Board Alarm System",
-      description: "Designed and implemented an alarm system using STM32 Nucleo board with I2C communication for sensor integration",
-      tags: ["C", "I2C", "Motion Sensors/Buzzers", "Hardware Circuitry"],
-      github: "https://github.com/VivaanChugh/ECE198-Alarm-System",
-      demo: "#"
-    },
-    {
-      title: "MNIST Digit Classifier using CNN",
-      description: "Developed a CNN model in PyTorch to classify handwritten digits from the MNIST dataset with high accuracy",
-      tags: ["Python", "PyTorch", "Machine Learning"],
+      title: "Digit Classifier using CNN",
+      description: "Developed a CNN in PyTorch to classify handwritten digits from the MNIST dataset with high accuracy.",
+      tags: ["Python", "PyTorch", "TensorFlow", "Machine Learning"],
       github: "https://github.com/VivaanChugh/MNIST-Classifier-CNN",
       demo: "#"
     },
     {
-      title: "Football Top Player Analytics",
-      description: "Developed a Python-based tool to analyze and evaluate player performance using data from FIFA 21",
-      tags: ["Python", "File I/O", "OOP", "Algorithms", "Data Structures"],
-      github: "https://github.com/VivaanChugh/Fifa-21-Top-Player-Analytics",
+      title: "SmartSpend: A Personal Finance Tracker",
+      description: "Developed a Django finance tracker with user authentication, allowing users to log in and manage transactions.",
+      tags: ["Django", "Python", "HTML", "Matplotlib", "Bootstrap"],
+      github: "https://github.com/VivaanChugh/SmartSpend",
       demo: "#"
     }
   ]
@@ -41,7 +34,6 @@ export function Projects() {
       {projects.map((project, index) => (
         <FadeInSection key={index}>
           <Card className="flex flex-col">
-           
             <CardHeader>
               <CardTitle>{project.title}</CardTitle>
               <CardDescription>{project.description}</CardDescription>
@@ -77,4 +69,3 @@ export function Projects() {
     </div>
   )
 }
-
