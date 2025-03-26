@@ -19,7 +19,7 @@ export default function Home() {
         <Section id="about" title="About Me">
           <FadeInSection>
             <div className="space-y-6">
-              <TypingAnimation key="typing-animation" text="Hey, I am Vivaan Chugh! 👋" delay={80} />
+              <TypingAnimation key="typing-animation" text="Hey, I am Vivaan Chugh!" delay={160} />
               <div className="space-y-4 text-foreground">
                 <p>
                   I am a passionate Computer Engineering student at the University of Waterloo, 
