@@ -47,7 +47,6 @@ export default function Home() {
               <CardContent>
                 <p className="font-semibold">Candidate for BASc. in Computer Engineering</p>
                 <p className="text-sm text-muted-foreground">Sep. 2024 – April 2029</p>
-                <p> Cumulative Average: 82%</p>
                 <ul className="list-disc list-inside mt-2 text-sm">
                   <li>University of Waterloo President Scholarship of Distinction</li>
                   <li>Nortel Networks Undergraduate Scholarship</li>
