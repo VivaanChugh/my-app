@@ -22,7 +22,7 @@ export function NetworkAnimation() {
 
     let animationFrameId: number
     let particles: Particle[] = []
-    const particleCount = 50
+    const particleCount = 75
     const connectionDistance = 150
     const baseSpeed = 0.5
 
