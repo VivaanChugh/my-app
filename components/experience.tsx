@@ -7,7 +7,7 @@ export function Experience() {
       title: "Software Engineer Intern",
       company: "SBI Canada Bank",
       location: "Toronto, ON",
-      period: "May 2024 - August 2024",
+      period: "May 2025 - August 2025",
       description: [
         
       ]
@@ -16,7 +16,7 @@ export function Experience() {
       title: "Software Engineer Intern",
       company: "KnovaOne",
       location: "Florida, USA",
-      period: "May 2024 - August 2024",
+      period: "May 2025 - August 2025",
       description: [
         
       ]
