@@ -4,6 +4,24 @@ import { FadeInSection } from "./fade-in-section"
 export function Experience() {
   const experiences = [
     {
+      title: "Software Engineer Intern",
+      company: "SBI Canada Bank",
+      location: "Toronto, ON",
+      period: "May 2024 - August 2024",
+      description: [
+        
+      ]
+    },
+    {
+      title: "Software Engineer Intern",
+      company: "KnovaOne",
+      location: "Florida, USA",
+      period: "May 2024 - August 2024",
+      description: [
+        
+      ]
+    },
+    {
       title: "Software Developer",
       company: "UW Orbital",
       location: "Waterloo, ON",
