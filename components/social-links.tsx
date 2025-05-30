@@ -31,7 +31,7 @@ export function SocialLinks() {
       </Link>
 
       <Link
-        href="/Resume_Vivaan_Chugh.pdf"
+        href="/Resume_Vivaan_Chugh (5).pdf"
         className="flex items-center gap-2 text-sm hover:text-primary transition-colors"
       >
         <FileText className="h-5 w-5" />
