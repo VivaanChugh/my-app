@@ -14,6 +14,13 @@ export function Projects() {
       demo: "#"
     },
     {
+      title: "Employee Time Log Reporting System",
+      description: "Developed a DNN intranet module working C# and SQL Server to process and generate employee time log reports, enabling HR to filter by date, branch, and login times, and improving reporting efficiency by 60%.",
+      tags: ["C#", ".NET", "SQL Server", "DNN"],
+      github: "https://github.com/VivaanChugh/EmployeeTimeReport",
+      demo: "#"
+    },
+    {
       title: "Digit Classifier using CNN",
       description: "Developed a CNN in PyTorch to classify handwritten digits from the MNIST dataset with high accuracy.",
       tags: ["Python", "PyTorch", "TensorFlow", "Machine Learning"],
@@ -21,10 +28,10 @@ export function Projects() {
       demo: "#"
     },
     {
-      title: "SmartSpend: A Personal Finance Tracker",
-      description: "Developed a Django finance tracker with user authentication, allowing users to log in and manage transactions.",
-      tags: ["Django", "Python", "HTML", "Matplotlib", "Bootstrap"],
-      github: "https://github.com/VivaanChugh/SmartSpend",
+      title: "PDF Automation Tool",
+      description: "Engineered a document parsing backend in Python and MongoDB to extract and log keyword metadata from PDFs, improving internal review speed by 50%",
+      tags: ["Python", "HTML", "Flask", "SQLlite"],
+      github: "https://github.com/VivaanChugh/pdfautomation",
       demo: "#"
     }
   ]
