@@ -1,9 +1,10 @@
 "use client"
-
+import Link from 'next/link'
 import { useEffect, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import {
   ArrowRight,
+  FileText,
   Github,
   Linkedin,
   Mail,
@@ -161,10 +162,16 @@ function HeroSection({ y }: { y: any }) {
               View My Work
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
-            <button className="border border-slate-300 px-8 py-4 rounded-full font-semibold hover:border-blue-600 hover:text-blue-600 transition-all duration-300 flex items-center gap-2">
-              <Download className="w-5 h-5" />
-              Download Resume
-            </button>
+            <Link 
+            href="/Resume_VivaanChugh.pdf" 
+             
+            className="border border-slate-300 px-8 py-4 rounded-full font-semibold hover:border-blue-600 hover:text-blue-600 transition-all duration-300 flex items-center gap-2"
+            >
+            <FileText className="h-5 w-5" />
+            Download Resume
+            </Link>
+
+            
           </motion.div>
         </motion.div>
       </div>
