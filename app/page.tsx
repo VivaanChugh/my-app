@@ -60,13 +60,15 @@ export default function Home() {
           <Experience />
         </Section>
 
+        <Section id="projects" title="Projects">
+          <Projects />
+        </Section>
+        
         <Section id="skills" title="Skills">
           <Skills />
         </Section>
 
-        <Section id="projects" title="Projects">
-          <Projects />
-        </Section>
+        
       </div>
     </>
   )
