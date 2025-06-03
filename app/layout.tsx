@@ -1,11 +1,15 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: 'Vivaan Chugh | Portfolio',
-  description: 'Personal portfolio of Vivaan Chugh, software developer',
+export const metadata: Metadata = {
+  title: "Vivaan Chugh - Computer Engineering Student",
+  description:
+    "Portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in software development and AI/ML.",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -14,11 +18,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        {children}
-      </body>
+    <html lang="en" className="scroll-smooth">
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
-
