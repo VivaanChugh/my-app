@@ -649,16 +649,7 @@ function ContactSection() {
                     <p className="text-slate-600">vivaanc190@gmail.com</p>
                   </div>
                 </div>
-                {/* Website */}
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <Globe className="w-6 h-6 text-blue-600" />
-                  </div>
-                  <div>
-                    <p className="font-medium">Website</p>
-                    <p className="text-slate-600">vivaanchugh.me</p>
-                  </div>
-                </div>
+              
                 {/* Location */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
