@@ -1,5 +1,5 @@
 "use client"
-import Link from 'next/link'
+import Link from "next/link"
 import { useEffect, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import {
@@ -9,13 +9,11 @@ import {
   Linkedin,
   Mail,
   ExternalLink,
-  Download,
   MapPin,
   Calendar,
   Code,
   Database,
   Cpu,
-  Globe,
 } from "lucide-react"
 
 export default function Portfolio() {
@@ -57,7 +55,6 @@ export default function Portfolio() {
       <ContactSection />
 
       {/* Decorative Background Elements */}
-      <BackgroundElements />
     </div>
   )
 }
@@ -113,66 +110,106 @@ function HeroSection({ y }: { y: any }) {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-          {/* Name */}
-          <motion.h1
-            className="text-7xl md:text-9xl font-bold mb-6"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.2 }}
-          >
-            <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800 bg-clip-text text-transparent">
-              Vivaan
-            </span>
-            <br />
-            <span className="text-slate-800">Chugh</span>
-          </motion.h1>
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16">
+            {/* Name and image section */}
+            <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+              {/* Name section */}
+              <div className="text-center lg:text-left">
+                {/* Name */}
+                <motion.h1
+                  className="text-6xl md:text-8xl lg:text-7xl xl:text-8xl font-bold mb-6"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1, delay: 0.2 }}
+                >
+                  <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800 bg-clip-text text-transparent">
+                    Vivaan
+                  </span>
+                  <br />
+                  <span className="text-slate-800">Chugh</span>
+                </motion.h1>
+              </div>
 
-          {/* Animated job titles */}
-          <motion.div
-            className="text-2xl md:text-3xl text-slate-600 mb-8 font-light"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            <TypewriterText texts={["Computer Engineering Student", "Software Developer", "AI/ML Enthusiast", "Data Engineer", "Full-Stack Developer"]} />
-          </motion.div>
+              {/* Profile Image */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                className="flex-shrink-0"
+              >
+                <div className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 relative">
+                  <img
+                    src="/PersonalPhoto (1).JPG"
+                    alt="Vivaan Chugh"
+                    className="w-full h-full rounded-full object-cover border-6 border-white shadow-2xl"
+                  />
+                  <div className="absolute inset-0 rounded-full" />
+                  {/* Decorative ring */}
+                  <div className="absolute -inset-4 rounded-full border-2 border-blue-200/30 animate-pulse" />
+                </div>
+              </motion.div>
+            </div>
 
-          {/* Description */}
-          <motion.p
-            className="text-lg text-slate-600 max-w-2xl mx-auto mb-12"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            Computer Engineering student at University of Waterloo with experience in full-stack development, machine
-            learning, and robotics. Passionate about creating innovative solutions that make a difference.
-          </motion.p>
+            {/* Content section below name and image */}
+            <div className="flex-1 text-center lg:text-left max-w-2xl">
+              {/* Animated job titles */}
+              <motion.div
+                className="text-xl md:text-2xl lg:text-3xl text-slate-600 mb-8 font-light"
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+              >
+                <TypewriterText
+                  texts={[
+                    "Computer Engineering Student",
+                    "Software Developer",
+                    "AI/ML Enthusiast",
+                    "Data Engineer",
+                    "Full-Stack Developer",
+                  ]}
+                />
+              </motion.div>
 
-          {/* Buttons */}
-          <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-          >
-            <a
-              href="#projects"
-              className="group bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
-            >
-              View My Work
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
-            <Link 
-            href="/Resume_VivaanChugh.pdf" 
-             
-            className="border border-slate-300 px-8 py-4 rounded-full font-semibold hover:border-blue-600 hover:text-blue-600 transition-all duration-300 flex items-center gap-2"
-            >
-            <FileText className="h-5 w-5" />
-            Download Resume
-            </Link>
+              {/* Description */}
+              <motion.p
+                className="text-lg text-slate-600 mb-12"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.6 }}
+              >
+                Computer Engineering student at University of Waterloo with experience in full-stack development,
+                machine learning, and robotics. Passionate about creating innovative solutions that make a difference.
+              </motion.p>
 
-            
-          </motion.div>
+              {/* Buttons */}
+              <motion.div
+                className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.8 }}
+              >
+                <Link
+                  href="https://github.com/VivaanChugh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
+>
+                  View My Work
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
+
+                <Link
+                  href="/Resume_VivaanChugh.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-slate-300 px-8 py-4 rounded-full font-semibold hover:border-blue-600 hover:text-blue-600 transition-all duration-300 flex items-center gap-2"
+                >
+                  <FileText className="h-5 w-5" />
+                  Download Resume
+                </Link>
+              </motion.div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
@@ -231,7 +268,7 @@ function AboutSection() {
   const skills = [
     { name: "Python", level: 95, icon: Code },
     { name: "JavaScript/TypeScript", level: 90, icon: Code },
-    { name: "React/Next.js", level: 88, icon: Code },
+    { name: "React/Next.js", level: 80, icon: Code },
     { name: "C/C++", level: 85, icon: Cpu },
     { name: "Machine Learning", level: 80, icon: Database },
     { name: "AWS/Cloud", level: 75, icon: Database },
@@ -587,13 +624,7 @@ function ProjectsSection() {
                     <Github className="w-4 h-4" />
                     Code
                   </a>
-                  <a
-                    href={project.live}
-                    className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </a>
+                  
                 </div>
               </div>
             </motion.div>
@@ -649,7 +680,7 @@ function ContactSection() {
                     <p className="text-slate-600">vivaanc190@gmail.com</p>
                   </div>
                 </div>
-              
+
                 {/* Location */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -669,18 +700,23 @@ function ContactSection() {
               <div className="flex gap-4">
                 <a
                   href="https://github.com/VivaanChugh"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-white rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-slate-200"
                 >
                   <Github className="w-6 h-6" />
                 </a>
                 <a
                   href="https://linkedin.com/in/vivaan-chugh"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-white rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-slate-200"
                 >
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a
                   href="mailto:vivaanc190@gmail.com"
+                  
                   className="w-12 h-12 bg-white rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-slate-200"
                 >
                   <Mail className="w-6 h-6" />
@@ -691,26 +727,5 @@ function ContactSection() {
         </div>
       </div>
     </section>
-  )
-}
-
-// Small decorative elements in the background
-function BackgroundElements() {
-  return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden">
-      <div className="absolute top-1/4 left-10 w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
-      <div
-        className="absolute top-1/3 right-20 w-1 h-1 bg-indigo-500 rounded-full animate-pulse"
-        style={{ animationDelay: "1s" }}
-      />
-      <div
-        className="absolute bottom-1/4 left-1/4 w-1.5 h-1.5 bg-blue-600 rounded-full animate-pulse"
-        style={{ animationDelay: "2s" }}
-      />
-      <div
-        className="absolute bottom-1/3 right-1/3 w-1 h-1 bg-indigo-400 rounded-full animate-pulse"
-        style={{ animationDelay: "3s" }}
-      />
-    </div>
   )
 }
