@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in software development and AI/ML.",
   
   icons: {
-    icon: '/favicon.ico',
+    icon: '/public/favicon.ico',
     
   }
 }
