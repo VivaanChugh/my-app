@@ -11,10 +11,8 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in software development and AI/ML.",
   
-  icons: {
-    icon: '/public/favicon.ico',
+  icons: "/favicon.ico"
     
-  }
 }
 
 export default function RootLayout({
