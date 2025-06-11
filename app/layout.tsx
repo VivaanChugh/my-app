@@ -4,6 +4,11 @@ import { Inter } from "next/font/google"
 import Image from "next/image"
 import "./globals.css"
 
+import Head from "next/head"
+
+// 
+
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -21,8 +26,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+
+    
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+      <Head>
+        <title>Vivaan Chugh - Computer Engineering Student</title>
+        <meta name="description" content="Portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in software development and AI/ML." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <body>{children}</body>
     </html>
+    
   )
 }
