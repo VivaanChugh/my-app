@@ -523,7 +523,8 @@ function ProjectsSection() {
       title: "Findr: AI-Powered Hackathon Matchmaking",
       description:
         "Full-stack matchmaking platform connecting hackathon participants based on skills and interests. Features AI-powered resume parsing and dynamic user profiling.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/gallery.jpg?height=300&width=400",
+      
       technologies: ["FastAPI", "React", "Python", "MongoDB", "Gemini AI", "GCP"],
       github: "https://github.com/VivaanChugh",
       live: "#",
