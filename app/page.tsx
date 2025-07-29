@@ -406,15 +406,6 @@ function AboutSection() {
 function ExperienceSection() {
   const experiences = [
     {
-      title: "Software Developer",
-      company: "UW Orbital",
-      period: "January 2025 - Present",
-      location: "Waterloo, ON",
-      description:
-        "Developing efficient software in C for satellite systems, optimizing performance on RM46 microcontroller. Implemented robust communication protocols achieving 28% improvement in data transmission reliability.",
-      technologies: ["C", "Embedded Systems", "Microcontrollers", "Communication Protocols"],
-    },
-    {
       title: "Software Engineering Intern",
       company: "SBI Canada Bank",
       period: "May 2025 – August 2025",
@@ -431,6 +422,15 @@ function ExperienceSection() {
       description:
         "Engineered document parsing backend in Python and MongoDB, improving review speed by 50%. Designed RBAC system using Flask-Login and SQLAlchemy for secure multi-user workflows.",
       technologies: ["Python", "MongoDB", "Flask", "SQLAlchemy", "RBAC"],
+    },
+    {
+      title: "Software Developer",
+      company: "UW Orbital",
+      period: "January 2025 - April 2025",
+      location: "Waterloo, ON",
+      description:
+        "Developing efficient software in C for satellite systems, optimizing performance on RM46 microcontroller. Implemented robust communication protocols achieving 28% improvement in data transmission reliability.",
+      technologies: ["C", "Embedded Systems", "Microcontrollers", "Communication Protocols"],
     },
     {
       title: "Software Developer",
