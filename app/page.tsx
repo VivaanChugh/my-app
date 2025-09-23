@@ -196,11 +196,11 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <a
-                href="mailto:vivaanc190@gmail.com"
+                href="mailto:vchugh@uwaterloo.ca"
                 className="flex items-center gap-2 bg-white px-4 py-2 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 text-slate-700 hover:text-blue-600 font-medium"
               >
                 <span>📧</span>
-                vivaanc190@gmail.com
+                vchugh@uwaterloo.ca
               </a>
               <a
                 href="https://linkedin.com/in/vivaan-chugh"
