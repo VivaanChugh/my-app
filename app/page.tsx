@@ -177,7 +177,7 @@ function HeroSection({ y }: { y: any }) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
-                Computer Engineering student at University of Waterloo with experience in full-stack development,
+                A motivated Computer Engineering student at University of Waterloo with experience in full-stack development,
                 machine learning, and robotics. Passionate about creating innovative solutions that make a difference.
               </motion.p>
 
