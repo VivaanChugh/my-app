@@ -9,7 +9,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Vivaan Chugh - Computer Engineering Student",
   description:
-    "Personal portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in AI/ML and software development.",
+    "Personal portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in software development.",
   generator: "v0.app",
 }
 
