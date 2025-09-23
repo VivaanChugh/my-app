@@ -48,8 +48,7 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-slate-700 leading-relaxed">
-                Built an HR automation tool that cut log processing time by 60%. Turns out banks have a lot of logs to
-                process! Also developed a DNN module for server log analysis - saved the team 8 hours of manual work per
+                Built an HR automation tool that cut log processing time by 60%. Also developed a DNN module for server log analysis - saved the team 8 hours of manual work per
                 week.
               </p>
               <div className="flex flex-wrap gap-2 mt-4">
@@ -71,8 +70,7 @@ export default function Home() {
               </div>
               <p className="text-slate-700 leading-relaxed">
                 Created a document parsing pipeline with OCR magic (Tesseract + easyOCR). Also built a full-stack PDF
-                platform for merging, compressing, and redacting documents. Got to present to actual clients, which was
-                both terrifying and awesome.
+                platform for merging, compressing, and redacting documents. 
               </p>
               <div className="flex flex-wrap gap-2 mt-4">
                 <span className="bg-purple-50 text-purple-700 px-2 py-1 rounded text-xs font-medium">Python</span>
@@ -93,8 +91,7 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-slate-700 leading-relaxed">
-                Writing C code for satellite systems on the RM46 microcontroller. Improved data transmission by 28% -
-                every byte counts when you're in space! Error handling is crucial when you can't exactly debug in orbit.
+                Writing C code for satellite systems on the RM46 microcontroller. Improved data transmission by 28%.
               </p>
               <div className="flex flex-wrap gap-2 mt-4">
                 <span className="bg-green-50 text-green-700 px-2 py-1 rounded text-xs font-medium">C</span>
@@ -120,7 +117,7 @@ export default function Home() {
               <p className="text-slate-600 text-sm mb-3 font-medium">Python • PyQt • OpenCV • Mediapipe</p>
               <p className="text-slate-700 text-sm leading-relaxed">
                 Got tired of manually counting reps at the gym, so I built an app that uses your webcam to count them
-                for you. Uses pose estimation to track joint angles - it's surprisingly accurate!
+                for you. Uses pose estimation to track joint angles.
               </p>
             </div>
 
