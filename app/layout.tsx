@@ -1,41 +1,29 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import Image from "next/image"
+import { GeistSans } from "geist/font/sans"
+import { GeistMono } from "geist/font/mono"
+import { Analytics } from "@vercel/analytics/next"
+import { Suspense } from "react"
 import "./globals.css"
-
-import Head from "next/head"
-
-// 
-
-
-const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Vivaan Chugh - Computer Engineering Student",
   description:
-    "Portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in software development and AI/ML.",
-  
-  icons: "/favicon.ico"
-    
+    "Personal portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in AI/ML and software development.",
+  generator: "v0.app",
 }
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
-
-    
-    <html lang="en" className="scroll-smooth">
-      <Head>
-        <title>Vivaan Chugh - Computer Engineering Student</title>
-        <meta name="description" content="Portfolio of Vivaan Chugh, Computer Engineering student at University of Waterloo specializing in software development and AI/ML." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <body>{children}</body>
+    <html lang="en">
+      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <Suspense fallback={null}>{children}</Suspense>
+        <Analytics />
+      </body>
     </html>
-    
   )
 }
