@@ -32,7 +32,7 @@ export function Experience() {
       company: "UW Orbital",
       role: "Software Developer",
       location: "Waterloo, ON",
-      period: "January 2025 - Present",
+      period: "January 2025 - April 2025",
       achievements: [
         "Developed efficient software in C for satellite systems, optimizing performance and resource utilization on the RM46 microcontroller while ensuring robust operation in space-critical environments through error handling",
         "Implemented communication protocols for satellite systems, resulting in a 28% improvement in data transmission",

@@ -44,7 +44,7 @@ export default function Home() {
                   <p className="text-blue-600 font-semibold mb-2">State Bank of India (Canada) • Toronto</p>
                 </div>
                 <span className="inline-block bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
-                  May - Aug 2025
+                  May 2025 - Aug 2025
                 </span>
               </div>
               <p className="text-slate-700 leading-relaxed">
@@ -65,7 +65,7 @@ export default function Home() {
                   <p className="text-purple-600 font-semibold mb-2">KnovaOne • Remote (Florida)</p>
                 </div>
                 <span className="inline-block bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
-                  May - Aug 2025
+                  May 2025 - Aug 2025
                 </span>
               </div>
               <p className="text-slate-700 leading-relaxed">
@@ -86,8 +86,8 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-slate-900 mb-1">Software Developer</h3>
                   <p className="text-green-600 font-semibold mb-2">UW Orbital • Waterloo</p>
                 </div>
-                <span className="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">
-                  Jan 2025 - Present
+                <span className="inline-block bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
+                  Jan 2025 - April 2025
                 </span>
               </div>
               <p className="text-slate-700 leading-relaxed">
