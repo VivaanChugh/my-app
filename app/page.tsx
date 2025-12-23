@@ -36,7 +36,9 @@ export default function Home() {
         <section className="mb-20">
           <h2 className="text-3xl font-bold text-slate-900 mb-10 text-center">What I've been up to</h2>
 
+  
           <div className="space-y-8">
+
             <div className="group bg-white rounded-2xl p-8 shadow-lg border border-slate-200/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div>
@@ -48,7 +50,7 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-slate-700 leading-relaxed">
-                Incoming Winter 2026
+                Incoming Winter 2025 Data Engineering Intern at RBC. Excited to work on large-scale data pipelines and analytics to drive business insights.
               </p>
               <div className="flex flex-wrap gap-2 mt-4">
                 <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-xs font-medium">C#</span>
@@ -59,7 +61,6 @@ export default function Home() {
 
 
 
-          <div className="space-y-8">
             <div className="group bg-white rounded-2xl p-8 shadow-lg border border-slate-200/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div>
