@@ -4,7 +4,7 @@ import { CalendarDays, MapPin } from "lucide-react"
 
 export function Experience() {
   const experiences = [
-    (
+    {
       company: "Royal Bank of Canada (RBC)",
       role: "Data Engineering ",
       location: "Toronto, ON",
@@ -14,7 +14,7 @@ export function Experience() {
       ],
       technologies: [""]
 
-    )
+  },
     {
       company: "State Bank of India (Canada)",
       role: "Software Engineering Intern",
