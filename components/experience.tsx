@@ -14,7 +14,7 @@ export function Experience() {
       ],
       technologies: [""]
 
-  },
+    },
     {
       company: "State Bank of India (Canada)",
       role: "Software Engineering Intern",
@@ -38,18 +38,7 @@ export function Experience() {
         "Led and participated in client meetings to demo solutions, gather product requirements, and translate feedback into technical features, ensuring alignment between stakeholders and the development team",
       ],
       technologies: ["Python", "FastAPI", "React", "MongoDB", "OCR", "Tesseract"],
-    },
-    {
-      company: "UW Orbital",
-      role: "Software Developer",
-      location: "Waterloo, ON",
-      period: "January 2025 - April 2025",
-      achievements: [
-        "Developed efficient software in C for satellite systems, optimizing performance and resource utilization on the RM46 microcontroller while ensuring robust operation in space-critical environments through error handling",
-        "Implemented communication protocols for satellite systems, resulting in a 28% improvement in data transmission",
-      ],
-      technologies: ["C", "RM46 Microcontroller", "Embedded Systems"],
-    },
+    }
   ]
 
   return (
