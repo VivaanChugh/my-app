@@ -40,6 +40,29 @@ export default function Home() {
             <div className="group bg-white rounded-2xl p-8 shadow-lg border border-slate-200/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                 <div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-1">Data Engineering Intern</h3>
+                  <p className="text-blue-600 font-semibold mb-2">Royal Bank of Canada • Toronto</p>
+                </div>
+                <span className="inline-block bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
+                  Jan 2025 - Apr 2025
+                </span>
+              </div>
+              <p className="text-slate-700 leading-relaxed">
+                Incoming Winter 2026
+              </p>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-xs font-medium">C#</span>
+                <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-xs font-medium">SQL Server</span>
+                <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-xs font-medium">Python</span>
+              </div>
+            </div>
+
+
+
+          <div className="space-y-8">
+            <div className="group bg-white rounded-2xl p-8 shadow-lg border border-slate-200/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-1">Software Engineering Intern</h3>
                   <p className="text-blue-600 font-semibold mb-2">State Bank of India (Canada) • Toronto</p>
                 </div>
@@ -80,27 +103,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="group bg-white rounded-2xl p-8 shadow-lg border border-slate-200/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">Software Developer</h3>
-                  <p className="text-green-600 font-semibold mb-2">UW Orbital • Waterloo</p>
-                </div>
-                <span className="inline-block bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
-                  Jan 2025 - April 2025
-                </span>
-              </div>
-              <p className="text-slate-700 leading-relaxed">
-                Writing C code for satellite systems on the RM46 microcontroller. Improved data transmission by 28%.
-              </p>
-              <div className="flex flex-wrap gap-2 mt-4">
-                <span className="bg-green-50 text-green-700 px-2 py-1 rounded text-xs font-medium">C</span>
-                <span className="bg-green-50 text-green-700 px-2 py-1 rounded text-xs font-medium">
-                  Embedded Systems
-                </span>
-                <span className="bg-green-50 text-green-700 px-2 py-1 rounded text-xs font-medium">RM46</span>
-              </div>
-            </div>
+            
           </div>
         </section>
 
